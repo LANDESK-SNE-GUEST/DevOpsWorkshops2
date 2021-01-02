@@ -26,6 +26,6 @@ int main(){
 
     freopen("OUT.txt", "w", stdout);
     for(int i = 0; i < N2; i++){
-        cout << a[i] << '\n';
+        cout << a[i] << '\n'M;
     }
 }
