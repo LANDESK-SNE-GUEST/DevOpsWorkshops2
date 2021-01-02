@@ -9,7 +9,7 @@ jobs:
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Your CI workflow goes here!
+          # Your CI workflow goes here!HH
           g++ generate.cpp -o generate
           chmod u=x generate
           ./generate
